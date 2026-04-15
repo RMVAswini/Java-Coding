@@ -1,0 +1,27 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes 
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		while(T-->0)
+		{
+		    int A = sc.nextInt();
+		    int B = sc.nextInt();
+		    int C = sc.nextInt();
+		    if(B>=A && B=C)
+		    {
+		        System.out.println("Yes");
+		    }
+		    else
+		    {
+		        System.out.println("No");
+		    }
+		}
+	}
+}
